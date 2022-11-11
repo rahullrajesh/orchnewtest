@@ -107,21 +107,24 @@ function mmData(o) { mmDataLayer.push(o); }
 
 
     <!-- ======= Blog Single Section ======= -->
-    <section id="blog" class="blog">
+    <section id="blog" class="blog ">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
 
-          <div class="col-lg-12 entries">
+          <div class="col-lg-12 entries ">
 
-            <article class="entry entry-single">
+            <article class="entry entry-single ">
 
               
             
 
-              <img src="assets/img/Our Journey Head.jpg" style="width: 100%;
+              <img class=" d-none d-md-block"  src="assets/img/Our Journey Head.jpg" style="width: 100%;
                 max-width: 1280px;
                 height: auto;"  alt="">
+                              <img class="d-md-none" src="assets/img/Our Journey Head mob.jpg" style="width: 100%;
+                              max-width: 1280px;
+                              height: auto;"  alt="">
 
               <div class="entry-content">
                
@@ -129,7 +132,7 @@ function mmData(o) { mmDataLayer.push(o); }
                   When we started placing NDs in corporates, we were flooded with applications and enquiries from those who didn’t
                    fit into the corporate setup. Their accommodation needs were high, their communication was markedly different or
                     they had minimal formal education, and in many cases all three.<b style="color: #00917C;"> How do we ensure sustainable employment for this
-                     group and do it at scale? </b>   
+                     group and do it at scale? </b>     
                 </p>
                 <p>
                   We looked at what the group had in common. They were extremely resilient, many were socially isolated and spent huge amount
@@ -148,9 +151,13 @@ function mmData(o) { mmDataLayer.push(o); }
           will realize how different the workflows are. Taskmonk went out of their way to customize to meet our training requirements. They had no reason to. But they did. 
           We are very very thankful they did.<b style="color: #00917C;"> Microsoft soon accepted us into their Startups program and gave us free Azure credits</b>. This meant we could now afford to host
            an open-source DA platform. <b style="color: #00917C;"></b>OpenCV and CVAT came to the rescue.   			</p>
-           <img src="assets/img/Our Journey.jpg" style="width: 100%;
+           <img class="d-none d-md-block" src="assets/img/Our Journey.jpg" style="width: 100%;
                 max-width: 1280px;
                 height: auto;"  alt="">
+                <img class="d-md-none" src="assets/img/Our Journey mob.jpg" style="width: 100%;
+                max-width: 1280px;
+                height: auto;"  alt="">
+                <!-- docs for hiding ref https://getbootstrap.com/docs/5.0/utilities/display/ -->
 				<p>
 					We started attending AI conferences.<b style="color: #00917C;"> We connected to iMerit</b> one of the leading data annotation service providers in India who were as excited as we were to<b style="color: #00917C;">  explore 
           this intersection of neurodivergence & AI</b>. Together we figured out a way to work together.  Soon,<b style="color: #00917C;"> our group was on the iMerit L&D platform </b>being tested for 
